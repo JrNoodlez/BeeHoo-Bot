@@ -7,10 +7,10 @@ const config = require("./config.js");
 function initializePlayer(client) {
     const nodes = config.nodes.map(node => ({
         name: node.name,
-        host: node.host,
-        port: node.port,
-        password: node.password,
-        secure: node.secure,
+        host: node.lavalink.clxud.dev,
+        port: node.2333,
+        password: node.youshallnotpass,
+        secure: node.false,
         reconnectTimeout: 5000,
         reconnectTries: Infinity
         
